@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <title>Survey Form</title>
+
+  <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+  
+  <div>
+   <center><h1>Covid Vaccination Survey</h1></center>
+   </div>
+   
+   <br><br>
+   
+   <form>
+  
+       <fieldset>
+         Name :  <input type="text" class="len" name="Name" placeholder="Enter Name">
+ 
+       <br><br>
+         E-mail : <input type="email" class="len" name="Email address" placeholder="enter mail id " required>
+         <br><br>
+        
+       D.O.B : <input type="date"  class ="hgt" name="Date of birth" required> 
+       </fieldset>
+       <br>
+    
+       <fieldset>
+         <p>Gender</p> <input type="radio" name="gen"> Male 
+         
+         <input type="radio" name="gen"> Female 
+         
+         <input type="radio" name="gen"> other
+         <br><br><br>
+          Contact no. : <input type="number" class ="hgt" name="mobile number" placeholder="Enter mobile number">
+          
+          <br>
+        
+         <p>Which option best describes your current role : 
+         
+           <select style="height: 25px; width: 200px;">
+             
+            <option value="Student">Student</option>
+            <option value="Employer">Employer</option>
+            <option value="House wife">House Wife</option>
+            <option value="Other">Other</option>
+                <br>
+              
+           </select>
+          
+       </fieldset>
+       <br>
+       <fieldset>
+        <p> How many doses of the vaccine did you get? </p>
+     
+         <form>
+           
+          <input type="radio" name="opt">first dose<br>
+          <input type="radio" name="opt">Second dose<br>
+          <input type="radio" name="opt">Booster
+          
+           </form>
+       </fieldset>
+       
+       <br>
+       
+       <fieldset>
+         <p>Were there any side effects after getting the vaccine? </p>
+         <form>
+           <input type="checkbox"> High Fever <br>
+           <input type="checkbox"> Body Ache<br>
+           <input type="checkbox"> pain at the injection site <br>
+           <input type="checkbox"> fatigue<br>
+           <input type="checkbox"> None of the above 
+         </form>
+         
+       </fieldset>
+       <br>
+       <fieldset>
+         
+      <p> Hope you like the Form , please leave a review so it can help others</p> 
+      <textarea row="100" col="100" placeholder=" Type here...">
+           
+         </textarea>
+         <br>
+         
+       </fieldset>
+       <br>
+       
+       <fieldset>
+         <center>
+           
+    <p>Click Below for completion</p>
+    
+    <input type="submit" value="SUBMIT" class="buton">
+    <input type="reset" value="RESET" class="buton">
+    
+    </center>
+       </fieldset>
+       
+       <br>
+       
+   <center>
+     
+     <mark>This page is created by Rashi Jaiswal<mark>
+       
+     </center>
+     
+   </form>
+   
+</body>
+</html>
